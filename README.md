@@ -6,7 +6,7 @@ Alex AI Assistant is an intelligent interview coaching system that uses Large La
 
 ## Demo Video
 
-Watch the application in action here: https://drive.google.com/file/d/1VSJNp8PQmsxtfdUBV9yGnsc98JWk9nYS/view?usp=drive_link
+Watch the application in action here: [https://drive.google.com/file/d/1VSJNp8PQmsxtfdUBV9yGnsc98JWk9nYS/view?usp=drive_link](https://drive.google.com/file/d/1aOXa86botmsIF_xgQDfZDfADV25ad_9O/view?usp=drivesdk)
 
 
 ## Core Functionality
