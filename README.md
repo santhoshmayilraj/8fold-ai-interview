@@ -4,6 +4,11 @@
 
 Alex AI Assistant is an intelligent interview coaching system that uses Large Language Models to simulate realistic technical interviews. The platform adapts to candidate responses in real-time, adjusts question difficulty dynamically, and generates detailed performance reports in PDF format.
 
+## Demo Video
+
+Watch the application in action here: https://drive.google.com/file/d/1VSJNp8PQmsxtfdUBV9yGnsc98JWk9nYS/view?usp=drive_link
+
+
 ## Core Functionality
 
 ### What the System Does
