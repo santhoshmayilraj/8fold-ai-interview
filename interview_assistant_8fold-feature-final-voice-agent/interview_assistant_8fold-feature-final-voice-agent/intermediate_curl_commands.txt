@@ -1,0 +1,35 @@
+To continue the interview, use the `/interview` endpoint. Remember to replace the `response` content with your actual reply.
+
+**1. Continue the interview with a user's response:**
+```bash
+curl -X POST "http://127.0.0.1:8000/interview" \
+     -H "Content-Type: application/json" \
+     -d '{ 
+          "response": "My name is John Doe and I have 5 years of experience in Python development." 
+        }'
+```
+
+**2. Request feedback during the interview (example):**
+```bash
+curl -X POST "http://127.0.0.0:8000/interview" \
+     -H "Content-Type: application/json" \
+     -d '{ 
+          "response": "Can I get some feedback on my answers so far?" 
+        }'
+```
+
+**3. Request conversation history during the interview (example):**
+```bash
+curl -X POST "http://127.0.0.0:8000/interview" \
+     -H "Content-Type: application/json" \
+     -d '{ 
+          "response": "Please show me the history of our conversation." 
+        }'
+```
+
+**4. Reset the interview:**
+```bash
+curl -X POST "http://127.0.0.1:8000/reset" \
+     -H "Content-Type: application/json" \
+     -d '{}'
+```

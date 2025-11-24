@@ -1,0 +1,33 @@
+# Start a new interview
+curl -X POST "http://127.0.0.1:8000/start_interview" \
+     -H "Content-Type: application/json" \
+     -d 
+           "job_description": "Software Engineer with experience in Python and FastAPI",
+           "resume": "Experienced Python developer with strong skills in web development frameworks like FastAPI and Django."
+         
+
+# Continue the interview with a user's response
+curl -X POST "http://127.0.0.1:8000/interview" \
+     -H "Content-Type: application/json" \
+     -d 
+           "response": "My name is John Doe and I have 5 years of experience in Python development."
+         
+
+# Request feedback during the interview
+curl -X POST "http://127.0.0.1:8000/interview" \
+     -H "Content-Type: application/json" \
+     -d 
+           "response": "Can I get some feedback on my answers so far?"
+         
+
+# Request conversation history during the interview
+curl -X POST "http://127.0.0.1:8000/interview" \
+     -H "Content-Type: application/json" \
+     -d 
+           "response": "Please show me the history of our conversation."
+         
+
+# Reset the interview
+curl -X POST "http://127.0.0.1:8000/reset" \
+     -H "Content-Type: application/json" \
+     -d '{}'
