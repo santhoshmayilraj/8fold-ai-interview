@@ -153,7 +153,7 @@ LLMs often generate emojis and special Unicode characters. FPDF only supports La
 
 ### 1. User Authentication
 
-![Login Page](docs/screenshots/01_login_page.png)
+![Login Page](interview_assistant_8fold-feature-final-voice-agent/interview_assistant_8fold-feature-final-voice-agent/docs/screenshots/01_login_page.png)
 
 **Interface Elements**:
 
@@ -173,7 +173,7 @@ LLMs often generate emojis and special Unicode characters. FPDF only supports La
 
 ### 2. Performance Dashboard
 
-![Dashboard Overview](docs/screenshots/02_dashboard_overview.png)
+![Dashboard Overview](interview_assistant_8fold-feature-final-voice-agent/interview_assistant_8fold-feature-final-voice-agent/docs/screenshots/02_dashboard_overview.png)
 
 **Key Metrics Displayed**:
 
@@ -182,7 +182,7 @@ LLMs often generate emojis and special Unicode characters. FPDF only supports La
 - **Best Score**: Highest score achieved
 - **Improvement Rate**: Percentage change from first to latest session
 
-![Analytics Detail](docs/screenshots/03_dashboard_analytics.png)
+![Analytics Detail](interview_assistant_8fold-feature-final-voice-agent/interview_assistant_8fold-feature-final-voice-agent/docs/screenshots/03_dashboard_analytics.png)
 
 **Data Visualizations**:
 
@@ -195,7 +195,7 @@ LLMs often generate emojis and special Unicode characters. FPDF only supports La
 
 ### 3. Session Configuration
 
-![New Session Setup](docs/screenshots/04_new_session_setup.png)
+![New Session Setup](interview_assistant_8fold-feature-final-voice-agent/interview_assistant_8fold-feature-final-voice-agent/docs/screenshots/04_new_session_setup.png)
 
 **Setup Process**:
 
@@ -224,7 +224,7 @@ db.add(interview)
 
 ### 4. Active Interview - Chat Mode
 
-![Interview in Progress - Chat](docs/screenshots/05_interview_in_progress.png)
+![Interview in Progress - Chat](interview_assistant_8fold-feature-final-voice-agent/interview_assistant_8fold-feature-final-voice-agent/docs/screenshots/05_interview_in_progress.png)
 
 **Interface Components**:
 
@@ -245,7 +245,7 @@ db.add(interview)
 
 ### 5. Active Interview - Voice Mode
 
-![Interview in Progress - Voice](docs/screenshots/06_voice_mode_active.png)
+![Interview in Progress - Voice](interview_assistant_8fold-feature-final-voice-agent/interview_assistant_8fold-feature-final-voice-agent/docs/screenshots/06_voice_mode_active.png)
 
 **Voice Interface Elements**:
 
@@ -282,7 +282,7 @@ if (userInput.length > 0) {
 
 ### 6. Feedback Report
 
-![PDF Feedback Report](docs/screenshots/07_pdf_feedback_report.png)
+![PDF Feedback Report](interview_assistant_8fold-feature-final-voice-agent/interview_assistant_8fold-feature-final-voice-agent/docs/screenshots/07_pdf_feedback_report.png)
 
 **Report Sections**:
 
